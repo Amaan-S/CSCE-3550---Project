@@ -122,7 +122,7 @@ ALLOWED_JWKS = "GET, HEAD"
 ALLOWED_AUTH = "POST"
 
 
-class JWKSHandler(BaseHTTPRequestHandler):      #function takes returning the appropriate headers given a GET, HEAD, OR POST request
+class JWKSHandler(BaseHTTPRequestHandler):      #Class handles HTTP requests and takes returns the appropriate headers given a GET, HEAD, OR POST request
     protocol_version = "HTTP/1.1"
     keystore: KeyStore | None = None  # set from bootstrap
 
@@ -217,3 +217,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
