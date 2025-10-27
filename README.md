@@ -21,3 +21,17 @@ As I took the time to understand why certain lines of code were generated, I the
 I felt needed explaination so that I could build up the server later on easir. Afterward, I ran the
 gradebot program on the python code and got the score depicted in the .png file. 
 
+# CSCE-3550---Project2
+Project 2 files are included above alongside the original project 1 files
+
+As opposed to project 1, I opted to use the reference Project 1 code in the zip file provided in the assignment to ensure that I had a solid foundation to get a good gradebot score. I had some previous experience using sqlmodel, sqlalchemy, and MySQL with postgress, so the syntax on how to do a majority of the functionality was very familiar to me. I didn't have to use AI that often to complete project 2, however I did use it at times to understand why the database was now populating as expecting. I would past some of the very lengthy error messages to the AI and used the feedback it gave me to narrow down the issue I was facing within the next 10-20 minutes. I used AI moderately during debugging, just because at the time I was developing I wanted to expedite the debugging process as much as possible. 
+
+After getting my gradebot score, for the test cases, however, I essentially used AI throughout. I essentially just copied the project 2 code and asked it to make a test case file that utilized pytest. I essentially just wanted to get awarded the points in the rubric for the test case file (Test2.py for project 2) for at least being present. 
+
+I used python version 3.13 for the devlopment of project2 and developed it on a system running Windows. No special frameworks were used to develop the project itself.
+
+To Setup the server to run it locally simply type the following command once you have cloned the repository:
+
+**python3 Project2.py**
+
+that command will run the server. Then you can run gradebot as normal to verify the gradebot screenshot accuracy already provided in the repository (GRADEBOT_project1.png).
